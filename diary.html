@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Durian, the king of fruits.</title>
+        <!-- Adobe Fonts -->
+        <link rel="stylesheet" href="https://use.typekit.net/ylh7shm.css">
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/e1e6165088.js" crossorigin="anonymous"></script>
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+    <header>
+    <div class="header-container">
+        <div class="banner">
+            <img class="topicon" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/29587/durian-thai-fruit-clipart-md.png" height=60px>
+            <h1><strong>DURIAN</strong><br><span class="subtitle">the king of fruits</span></h1>
+        </div>
+        <div class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="varieties.html">Varieties</a>
+            <a href="map.html">Map</a>
+            <a href="season.html">Season</a>
+            <a class="active" href="index.html">Diary</a>
+        </div>
+
+    </div>
+    </header>
+
+    <div class="main_diary">
+        <div class="main_diarytext">
+            <h2>Project Diary Entries</h2>
+            <!-- DAY 1  -->
+            <h3>28.03.23</h3>
+            <p>
+            Today, I managed to set up the top-nav and diary page. I used w3 as a reference when I got stuck. It was fairly simple today. Durian image is licensed for Public Domain from creazilla, linked <a href="https://creazilla.com/nodes/29587-durian-thai-fruit-clipart">here.</a>
+            <br>
+            <br>
+            Struggles: I wasn't able to get the durian &lt;img&gt; and title with h1 tag for class .banner to line up using the position as inline so I made the h1 margin-top as negative.
+            <br>
+            <br>
+            Hours Spent: 3
+            </p>
+            <!-- DAY 2 -->
+            <h3>29.03.23</h3>
+            <p>
+            Today was spent on adding content to the home page and improving the design. The header and navigation fonts were also updated. I also created the <strong>durian fruit icon</strong> <img src="duriansmall-01-01.svg"> with AI and exported as SVG to use as the style list image. I also spontaneously added a "calendar" to log my hours spent using a table.
+            <br>
+            <br>
+            Struggles: Trying to get the image and text to be inline with each other. I ended up creating a div that is a container with two divs (1 for image, 1 for text).
+            <br>
+            <br>
+            Hours Spent: 3
+            </p>
+            <!-- DAY 3 -->
+            <h3>02.04.23</h3>
+            <p>
+            Mainly worked on content for the Varieties page. I wanted to create a simple grid that was also not too boring. I learned to use the transform attribute to rotate the grid items. I also made use of the background image and border attributes to make it look a but nicer. I actually spent a lot of time trying to update the header and top-nav to have the positions correct when the header is fixed. <br>
+            Background image <a href="https://pixabay.com/photos/fruit-durian-harvest-healthy-6541599/">source</a> for varieties, license is irrevocable, worldwide, non-exclusive and royalty free right to use, download, copy, modify or adapt the Content for commercial or non-commercial purposes from and no attribution required (Pixabay).
+
+            <br>
+            <br>
+            Struggles: <br>
+            - The footer was giving me trouble when the diary page got too long so I spent some time trying to figure out why. I realized there was a /div missing. But the longer the main_diary div gets, then the footer still goes out of place... so I have to keep manually adjusting the height when I add a new diary entry.<br>
+            - Figuring out a creative way to use grid layout.
+            <br>
+            <br>
+            Hours Spent: 5
+            </p>
+            <!-- DAY 4 -->
+            <h3>03.04.23</h3>
+            <p>
+            Worked on the manual map in Varieties. Added 3 markers and a legend. I used FontAwesome for the tree icon and took screenshots of each icon for the legend. For the "rectangular" area, I created a rectangle around the SEA region in the extent map and changed the border radius to make it circular. I also added a blur effect to make it look nicer.
+
+            <br>
+            <br>
+            Struggles: Not many today.
+            <br>
+            <br>
+            Hours Spent: 3
+            </p>
+           <!-- DAY 5: Assignment 2 -->
+            <h3>25.04.23</h3>
+            <p>
+            Continuation after easter break. Completed the map using Leaflet. Also moved and adjusted the map from Varieties to Map page because the assignment required only one html document for maps.
+            <br>
+            <br>
+            Struggles: Tried to figure out how to get the manual map and Leaflet map to display inline-block but in the end decided it looks better as block.
+            <br>
+            <br>
+            Hours Spent: 4?
+            <br><br>
+            I spent another day working on the multimedia assignment for responsiveness but didn't log the hours. Maybe spent about 8 hours?
+            </p>
+
+           <!-- DAY 6: Assignment 3 -->
+            <h3>03.05.23</h3>
+            <p>
+            Spent almost all day completing this assignment. I created two SVG's using Illustrator. One was from scratch (for the "diagram") and the other was converted from OSM using qGIS then Illustrator. Experimented with flex box for the div where I placed my SVG.
+            <br>
+            <br>
+            Struggles: I wanted the SVG map of Malaysia to highlight the state when the durian with the same state is highlighted in the diagram but I could not figure out how to do it with CSS. My issue was when I used an id then the CSS is only letting me detect elements nested within the parent id so, I couldn't figure out how to write the css to refer to a separate SVG id element. Maybe I need to use JS?
+            <br>
+            <br>
+            Hours Spent: 7?
+            </p>
+        </div>
+        <div class="main_diarytbl">
+            <table>
+                <tr>
+                <th class="tbltitle" colspan="7">Log of Hours Spent</th>
+                </tr>
+
+                <tr>
+                <th>28.3</th>
+                <th>29.3</th>
+                <th>02.4</th>
+                <th>03.4</th>
+                <th>25.4</th>
+                <th>27.4</th>
+                <th>03.5</th>
+                </tr>
+
+                <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>5</td>
+                <td>3</td>
+                <td>4</td>
+                <td>7</td>
+                <td>8</td>
+                </tr>
+
+            </table>
+
+            <div class="highlights">
+                <p><strong> Website Highlights </strong> :</p>
+                    <ul>
+                    <li>Customized list icon</li>
+                    <li>Fixed header, "logo", and navigation for website</li>
+                    <li>Different color and thickness for active or hover</li>
+                    <li>Created a Log of Hours using table in Diary</li>
+                    <li>Use of grid layout for Varieties</li>
+                    <li>Use of multiple img tags</li>
+                    <li>Added website CC license as footer in every page</li>
+                    <li>Leaflet map using Mapbox studio basemap</li>
+                    <li>Added animations for the SVG diagram in Season page</li>
+
+
+
+                    </ul>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <div class="footer">
+        <p>Website by Phoebe Ly<br><br>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><br />
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.    </p>
+    </div> -->
+
+    </body>
+</html>
