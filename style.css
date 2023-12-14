@@ -303,9 +303,9 @@ td {
     display: inline;
     position: absolute;
     bottom: 0%;
-    padding: 0 20% 0;
     z-index: 1;
     opacity: 60%;
+    margin-left: 20vw;
 }
 
 .mymap svg {
@@ -767,12 +767,12 @@ path.jo.active, path.pa.active, path.sa.active, .pe.active path{
 
     .mymap {
         padding: 0;
+        margin-left: 20vw;
     }
 
     .mymap svg {
         width: 100vw;
         height: auto;
-        padding: 0 2% 0;
         margin-bottom: 25vh;
     }
 
